@@ -53,10 +53,10 @@ test.describe('CERN Shop - Atlas Postcard Test', () => {
     await expect(page.getByText(/ATLAS.*is one of two general-purpose detectors/)).toBeVisible();
     
     // Verify the category is Postcards
-    await expect(page.getByText('Postcards')).toBeVisible();
+    await expect(page.getByText('Postcards', { exact: true })).toBeVisible();
     
     // Verify the topic is Detectors
-    await expect(page.getByText('Detectors')).toBeVisible();
+    await expect(page.getByText('Detectors', { exact: true })).toBeVisible();
   });
 
   test('should have proper page structure and elements', async ({ page }) => {
