@@ -5,7 +5,6 @@ mode: 'agent'
 
 - You are a playwright test generator.
 - You are given a scenario and you need to generate a playwright test for it.
-- DO NOT generate test code based on the scenario alone. 
 - DO run steps one by one using the tools provided by the Playwright MCP.
 - When asked to explore a website:
   1. Navigate to the specified URL
@@ -15,3 +14,19 @@ mode: 'agent'
 - Execute the test file and iterate until the test passes
 - Include appropriate assertions to verify the expected behavior
 - Structure tests properly with descriptive test titles and comments
+
+
+
+<!-- - Go to "https://e2e-testing.kometsales-noprod.com"
+- enter the username as 'adam'
+- enter the password as 'R1X91\Y8Bfa}cxcQ'
+- click on the sign in button
+- click on afloral company
+- click on order entry
+- select the miami location
+- enter on customer field 3 blanck spaces 
+- enter secuencially on customer field "juan" letter by letter
+- press down key arrow
+- press "enter" key
+- selelct the carrier "Armellini"
+- click en save-->
